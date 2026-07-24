@@ -35,7 +35,7 @@ fun AppTopBar() {
         title = {
          Text(
              text = "Practice App",
-             fontSize = 28.sp,
+             fontSize = 24.sp,
              fontWeight = FontWeight.Bold,
              modifier = Modifier.padding(start = 52.dp)
              )

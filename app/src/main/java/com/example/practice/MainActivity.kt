@@ -31,8 +31,11 @@ import androidx.compose.ui.unit.sp
 import com.example.basiccomposables.jetpackcompose.Nested_LazyColumn_in_LazyRow
 import com.example.basiccomposables.jetpackcompose.UI_practice
 import com.example.practice.Navigation_bar.NavBarNavigation
+import com.example.practice.Navigation_bar.NavHomeScreen
 import com.example.practice.Navigation_bar.NavigationBar
 import com.example.practice.Scaffold.Screen
+import com.example.practice.SkillSpace.HomeScreen
+import com.example.practice.SkillSpace.NavGraph
 import com.example.practice.ui.theme.PracticeTheme
 
 
@@ -42,24 +45,29 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
 
-            //PracticeTheme {
+            PracticeTheme {
                 //Test()
                 //State()
                 //Joker()
                 //Lazy()
                 //Login_ui()
-            //UI_practice()
-            //StateHoistingParent()
-            //Nested_LazyColumn_in_LazyRow()
-            //Screen()
-            NavBarNavigation()
+                //UI_practice()
+                //StateHoistingParent()
+                //Nested_LazyColumn_in_LazyRow()
+                //Screen()
+                //HomeScreen()
+                //NavBarNavigation()
+
+                NavGraph()
+
+            }
         }
     }
 }
 
 
 
-@Preview
+/*@Preview
 @Composable
 private fun Test()
 {
@@ -105,4 +113,5 @@ private fun Test()
         }
 }
 
+*/
 
