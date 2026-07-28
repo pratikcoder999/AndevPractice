@@ -82,7 +82,7 @@ fun AppBottomBar(navController: NavHostController) {
                 }
             },
             colors = itemColors,
-            label = { Text(text = "Schedule", fontSize = 12.sp) },
+            label = { Text(text = "Roadmap", fontSize = 12.sp) },
             alwaysShowLabel = true,
         )
 
