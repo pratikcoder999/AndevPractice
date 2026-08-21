@@ -78,7 +78,7 @@ fun HomeContent() {
                 Card(
                     modifier = Modifier
                         .fillMaxWidth()
-                        .width(180.dp),
+                        .padding(horizontal = 10.dp),
 
                     shape = RoundedCornerShape(12.dp),
                     colors = cardColors(
@@ -109,14 +109,14 @@ fun HomeContent() {
                         {
                             Text(
                                 text = "Android App Development",
-                                fontSize = 28.sp,
+                                fontSize = 24.sp,
                                 fontWeight = FontWeight.Bold,
                                 modifier = Modifier.padding(start = 13.dp)
                             )
 
                             Text(
                                 text = "Full Stack native Dev",
-                                fontSize = 22.sp,
+                                fontSize = 19.sp,
                                 modifier = Modifier.padding(13.dp)
                             )
                         }
@@ -133,7 +133,7 @@ fun HomeContent() {
                 Card(
                     modifier = Modifier
                         .fillMaxWidth()
-                        .width(180.dp),
+                        .padding(horizontal = 10.dp),
 
                     shape = RoundedCornerShape(12.dp),
                     colors = cardColors(
@@ -166,14 +166,14 @@ fun HomeContent() {
                         {
                             Text(
                                 text = "Web Development",
-                                fontSize = 28.sp,
+                                fontSize = 24.sp,
                                 fontWeight = FontWeight.Bold,
                                 modifier = Modifier.padding(start = 13.dp)
                             )
 
                             Text(
                                 text = "Full Stack Development",
-                                fontSize = 22.sp,
+                                fontSize = 19.sp,
                                 modifier = Modifier.padding(13.dp)
                             )
                         }
@@ -190,7 +190,7 @@ fun HomeContent() {
                 Card(
                     modifier = Modifier
                         .fillMaxWidth()
-                        .width(180.dp),
+                        .padding(horizontal = 10.dp),
 
                     shape = RoundedCornerShape(12.dp),
                     colors = cardColors(
@@ -223,14 +223,14 @@ fun HomeContent() {
                         {
                             Text(
                                 text = "AI-ML",
-                                fontSize = 28.sp,
+                                fontSize = 24.sp,
                                 fontWeight = FontWeight.Bold,
                                 modifier = Modifier.padding(start = 13.dp)
                             )
 
                             Text(
                                 text = "Machine Learning & AI integration",
-                                fontSize = 22.sp,
+                                fontSize = 19.sp,
                                 modifier = Modifier.padding(13.dp)
                             )
                         }
@@ -246,7 +246,7 @@ fun HomeContent() {
                 Card(
                     modifier = Modifier
                         .fillMaxWidth()
-                        .width(180.dp),
+                        .padding(horizontal = 10.dp),
 
                     shape = RoundedCornerShape(12.dp),
                     colors = cardColors(
@@ -279,14 +279,14 @@ fun HomeContent() {
                         {
                             Text(
                                 text = "Game development",
-                                fontSize = 28.sp,
+                                fontSize = 24.sp,
                                 fontWeight = FontWeight.Bold,
                                 modifier = Modifier.padding(start = 13.dp)
                             )
 
                             Text(
                                 text = "C#, unreal engine, design and development ",
-                                fontSize = 22.sp,
+                                fontSize = 19.sp,
                                 modifier = Modifier.padding(13.dp)
                             )
                         }
@@ -302,7 +302,7 @@ fun HomeContent() {
                 Card(
                     modifier = Modifier
                         .fillMaxWidth()
-                        .width(180.dp),
+                        .padding(horizontal = 10.dp),
 
                     shape = RoundedCornerShape(12.dp),
                     colors = cardColors(
@@ -335,14 +335,14 @@ fun HomeContent() {
                         {
                             Text(
                                 text = "Cloud Computing & DevOps",
-                                fontSize = 28.sp,
+                                fontSize = 24.sp,
                                 fontWeight = FontWeight.Bold,
                                 modifier = Modifier.padding(start = 13.dp)
                             )
 
                             Text(
                                 text = "Expertise in Cloud and Devops technologies",
-                                fontSize = 22.sp,
+                                fontSize = 19.sp,
                                 modifier = Modifier.padding(13.dp)
                             )
                         }
@@ -359,7 +359,7 @@ fun HomeContent() {
                 Card(
                     modifier = Modifier
                         .fillMaxWidth()
-                        .width(180.dp),
+                        .padding(horizontal = 10.dp),
 
                     shape = RoundedCornerShape(12.dp),
                     colors = cardColors(
@@ -392,14 +392,14 @@ fun HomeContent() {
                         {
                             Text(
                                 text = "Data analytics",
-                                fontSize = 28.sp,
+                                fontSize = 24.sp,
                                 fontWeight = FontWeight.Bold,
                                 modifier = Modifier.padding(start = 13.dp)
                             )
 
                             Text(
                                 text = "power BI, MS Excel, tableau & Creative Dashboard",
-                                fontSize = 22.sp,
+                                fontSize = 19.sp,
                                 modifier = Modifier.padding(13.dp)
                             )
                         }
