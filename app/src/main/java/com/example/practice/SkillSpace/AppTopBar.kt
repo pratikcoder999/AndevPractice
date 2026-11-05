@@ -34,6 +34,7 @@ fun AppTopBar() {
                 text = "SkillSpace",
                 fontWeight = FontWeight.SemiBold,
                 fontSize = 27.sp,
+                color = Color.Black
             )
         },
 
@@ -42,7 +43,8 @@ fun AppTopBar() {
                 Icon(
                     imageVector = Icons.Filled.Person,
                     contentDescription = "Localized description",
-                    modifier = Modifier.size(36.dp)
+                    modifier = Modifier.size(36.dp),
+                    tint = Color.Black
                 )
             }
         },

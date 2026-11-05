@@ -2,6 +2,7 @@ package com.example.practice.SkillSpace
 
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.background
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -39,11 +40,11 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import androidx.navigation.NavHostController
 import com.example.practice.R
 
-@Preview(showBackground = true, showSystemUi = true)
 @Composable
-fun HomeContent() {
+fun HomeContent(navController: NavHostController? = null) {
 
     val DeepOrange = Color(0xFFCC5500)
 
@@ -78,7 +79,10 @@ fun HomeContent() {
                 Card(
                     modifier = Modifier
                         .fillMaxWidth()
-                        .padding(horizontal = 10.dp),
+                        .padding(horizontal = 10.dp)
+                        .clickable {
+                            navController?.navigate(NavRoutes.PlayPreview)
+                        },
 
                     shape = RoundedCornerShape(12.dp),
                     colors = cardColors(
@@ -405,9 +409,13 @@ fun HomeContent() {
                         }
                     }
                 }
-
             }
-
         }
     }
+}
+
+@Preview(showBackground = true, showSystemUi = true)
+@Composable
+fun PreviewHomeContent() {
+    HomeContent()
 }

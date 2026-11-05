@@ -17,4 +17,6 @@ sealed class NavRoutes {
     @Serializable
     object TrendList : NavRoutes()
 
+    @Serializable
+    object PlayPreview : NavRoutes()
 }
